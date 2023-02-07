@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: lavender;
+    text-align: center;
+}
+
+a {
+    color: powderblue;
+}
+
+a:visited {
+    color: plum;
+}
+
+table {
+    border-collapse: collapse;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+th, td {
+    border: 0.1rem solid lavender;
+    padding: 0.5rem;
+}
+
+td:nth-child(odd) {
+    text-align: left;
+}
+
+td:nth-child(even) {
+    text-align: right;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    padding: 0px;
+}
